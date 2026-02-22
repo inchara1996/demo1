@@ -5,3 +5,4 @@ VALUES
 (2, 'Jenkins',	'Jenkins Project'),
 (3, 'Kubernetes',	'Kubernetes Project'),
 (4, 'devops',	'devops Project');
+ON CONFLICT (ID) DO NOTHING;
